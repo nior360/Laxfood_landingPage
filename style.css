@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 :root{
-    --primary-color:#fefeff;
+    --primary-color:#f8f8f6;
     --primary-color-light:#1f2125;
     --primary-color-extra-light:#35373b;
     --secondary-color:#f9ac54;
@@ -55,6 +55,7 @@ button{
 img{
     width: 100%;
     display: flex;
+    border-radius: 30px;
 }
 a{
     text-decoration: none;
@@ -80,16 +81,21 @@ nav{
     justify-content: space-between;
     gap: 2rem;
     color: black;
+    background-attachment: #d9973c;
 } 
 
 .nav_log{
     max-width: 150px;
+    background-image: url('chemin/vers/ton-image.jpg');
+    -webkit-mask-image: radial-gradient(circle, white 50%, transparent 70%);
+    mask-image: radial-gradient(circle, white 50%, transparent 70%);
+    background-size: cover;
+
 }
 .nav_links{
     list-style: none;
     display: flex;
     align-items: center;
-    
     gap: 3rem;
 }
 
@@ -114,3 +120,56 @@ nav{
 .link a:hover::after{
     width: 50%;   
 }
+.burger body{
+    background-image: url('chemin/vers/ton-image.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      overflow: hidden;
+      margin-top: auto;
+      border-radius: 10px;
+
+}
+.overlay-container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    color: white;
+}
+.image {
+    position: absolute;
+    width: 150px; /* Ajustez la taille si nécessaire */
+    height: auto;
+}
+.image1 {
+    top: 10%;
+    left: 20%;
+    z-index: 2;
+}
+.image2 {
+    top: 50%;
+    right: 20%;
+    z-index: 2;
+}
+.image3 {
+    top: 50%;
+    right: 20%;
+    z-index: 2;
+}
+.text-overlay {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    font-size: 24px;
+    z-index: 3;
+    
+}
+p{
+    color: black;
+}
+card1{
+    border: solid 20px black;
+}
+
