@@ -134,7 +134,7 @@ nav{
 .overlay-container {
     position: relative;
     width: 80%;
-    height: 80%;
+    
     text-align: center;
     color: white;
 }
@@ -155,12 +155,13 @@ p{
 .overlay-container{
     display: grid;
         grid-template-columns:  repeat(auto-fill, minmax(150px, 1fr)); /* Trois colonnes de même taille */
-        gap: 430px; /* Espace entre chaque élément */
+        gap: 300px; /* Espace entre chaque élément */
         top: 0;
         align-items: center;
         margin: auto;      
+        padding: 20px;
 }
-.card{
+.items{
     border: solid 4px rgb(230, 179, 11);
     background-color:  rgb(230, 179, 11);
     border-radius: 10px;
@@ -168,7 +169,7 @@ p{
     top: 30px;
     
 }
-.card1{
+/* .card1{
     border: solid 4px rgb(230, 179, 11);
     background-color:  rgb(230, 179, 11);
     border-radius: 10px;
@@ -205,5 +206,5 @@ p{
     background-color:  rgb(230, 179, 11);
     border-radius: 10px;
     padding: 10px;
-}
+} */
 
