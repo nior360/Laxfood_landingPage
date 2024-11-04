@@ -134,7 +134,7 @@ nav{
 .overlay-container {
     position: relative;
     width: 80%;
-    
+   
     text-align: center;
     color: white;
 }
@@ -149,6 +149,7 @@ nav{
 }
 p{
     color: black;
+    
 }
 
 
@@ -166,7 +167,9 @@ p{
     background-color:  rgb(230, 179, 11);
     border-radius: 10px;
     padding: 10px;
-    
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+        
 }
 /* .card1{
     border: solid 4px rgb(230, 179, 11);
